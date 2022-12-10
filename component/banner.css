@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.banner {
+    display: flex;    
+}
+.banner .box{
+    background-color: #32cd32;
+    color: #fff;
+    text-shadow: 4px 4px 0 #000;
+    padding: 70px 30px;
+    margin-bottom: 10px;
+}
+
+.banner .wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .navigation {
+    display: flex;
+}
+
+.banner .botton {
+    background-color: #008000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    padding: 10px 8px;
+    width: 100px;
+}
